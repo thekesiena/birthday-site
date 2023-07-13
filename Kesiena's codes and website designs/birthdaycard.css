@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color:  #ffffff;
+    text-shadow: 0px 0px 1px black;
+   background: linear-gradient(lightskyblue,whitesmoke,grey,black);
+}
+
+.container-div{
+  height: 550px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+
+}
+.image{
+    width:200px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-color: #EFB0C9;
+  border-style: solid;
+  border-width: 4px;
+    
+}
+.age{
+    margin-top: 40px;
+    font-size: 25px;
+    width: 170px;
+    background-color: #EFB0C9;
+    padding: 1px 1px 1px 1px;
+    border-radius: 4px;
+
+}
+.date{
+    margin-top: 10px;
+    width: 90px;
+    background-color: #EFB0C9;
+    padding: 2px 2px 2px 2px;
+    border-radius: 4px;
+}
+
+.div2,.div3, .div4, .div5,.div6,.div7,.div8{
+    margin-top: 50px;
+  
+}
+
+
+.image2,.image3,.image4,.image5,.image6,.image7{
+ height: 400px;
+   width:400px;
+   margin-top: 20px;
+   border: 5px solid #ffffff;
+   border-radius: 6px;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: url(birthdayimages/gifts.jpg);
+   background-size: cover;  
+}
+
+    .image7{
+    height: 200px;
+    background-size: contain;
+    background-image: url(birthdayimages/secondgif.jpg);
+      
+   }
+
+
+
+.image2:hover{
+    background-image: url(birthdayimages/rockband.gif);
+    cursor: pointer;
+    
+}
+.image3:hover{
+    background-image: url(birthdayimages/bridge.gif);
+    cursor: pointer;
+    
+}
+
+
+.image4:hover{
+    background-image: url(birthdayimages/brilliant.gif);
+    cursor: pointer;
+    
+}
+.image5:hover{
+    background-image: url(birthdayimages/beautiful.gif);
+    cursor: pointer;
+    
+}
+
+.image6:hover{
+    background-image: url(birthdayimages/love.gif);
+    cursor: pointer;
+}
+
+.image7:hover{
+    background-image: url(birthdayimages/old.gif);
+    cursor: pointer;
+    
+}
+
+.paragraph1{
+    font-size: 30px;
+}
+.paragraph2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.paragraph3{
+    font-size: 20px;
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+   font-style: italic;
+   
+}
+.link:hover{
+cursor: pointer;
+}
+a{
+    color:#ffffff ;
+}
